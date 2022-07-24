@@ -1,6 +1,6 @@
 
 *{
-    background-color:  #6E6E6E;
+    background-color:  rgb(108 51 80);
 }
 h1{
     text-align: center;
@@ -13,10 +13,11 @@ h1{
 }
 .header a{
     text-decoration: none;
-    color: beige;
+    color: rgb(211, 211, 115);
     border: 1px solid black;
-    padding: 5px;
-    background-color: rgb(52, 76, 121);
+    box-shadow: 15px 8px  10px;
+    padding: 10px;
+    background-color: rgb(90, 96, 105);
 }
 .header a:hover{
     background-color: #BCFD4C;
@@ -32,12 +33,15 @@ h1{
     flex-wrap: wrap;
     padding-top: 40px;
     justify-content: center;
-    gap: 10px;    
+    gap: 40px;    
 }
 .IMG{
     width: 300px;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    box-shadow: 15px 15px  20px;
+    background-color: rgb(59, 81, 95);
 }
 .IMG img{
     width: 100%;
@@ -45,6 +49,7 @@ h1{
 }
 .IMG h2{
     color: rgb(183, 208, 219);
+    background-color:rgb(59, 81, 95) ;
 }
 .IMG a{
     text-decoration: none;
@@ -54,18 +59,20 @@ h1{
     padding:6px;
 }
 .IMG a:hover{
-    background-color: rgb(52, 76, 121);
+    background-color: rgb(7, 36, 90);
     color:beige; ;
 }
 .IMG a:active{
     background-color: crimson;
 }
 p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .footer-image{
     width: 450px;
+    border: 1px solid black;
+    box-shadow: 30px 25px  40px;
 }
 
 .footer-image img{
@@ -78,6 +85,13 @@ footer{
 }
 .last-paragraph p{
     font-size: 15px;
+}
+input{
+    width: 110px;
+}
+.enviar{
+    background-color: rgb(52, 76, 121);
+    color: #BCFD4C;
 }
 
 
@@ -122,6 +136,9 @@ footer{
     }
     label{
         font-size: 12px;
+    }
+    input{
+        width: 85px;
     }
     
     
