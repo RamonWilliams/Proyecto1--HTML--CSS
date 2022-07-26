@@ -1,6 +1,6 @@
 
 *{
-    background-color:  rgb(108 51 80);
+    background-color:  #2c3c3c;
     
 }
 h1{
@@ -18,7 +18,7 @@ h1{
     border: 1px solid black;
     box-shadow: 15px 8px  10px;
     padding: 10px;
-    background-color: rgb(136, 36, 114);
+    
     font-size: 30px;
 }
 .header a:hover{
@@ -36,6 +36,8 @@ h1{
     padding-top: 40px;
     justify-content: center;
     gap: 40px;    
+    
+    
 }
 .IMG{
     width: 300px;
@@ -44,6 +46,8 @@ h1{
     border: 1px solid black;
     box-shadow: 15px 15px  20px;
     background-color: rgb(59, 81, 95);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 25px;
 }
 .IMG img{
     width: 100%;
@@ -59,15 +63,18 @@ h1{
     background-color: #BCFD4C;
     margin-right: 220px;
     padding:6px;
+    border-bottom-left-radius: 10px;
+    
 }
 .IMG a:hover{
-    background-color: rgb(7, 36, 90);
-    color:beige; ;
+    background-color: beige;
+    color:#2c3c3c; ;
 }
 .IMG a:active{
     background-color: crimson;
 }
 .paragraph{
+    
     border: 1px solid rgb(119, 98, 98);
     border-radius: 20px;
     box-shadow: 15px 15px  20px;
@@ -102,6 +109,9 @@ form{
 .last-paragraph p{
     font-size: 15px;
 }
+label{
+    color:  #BCFD4C;
+}
 input{
     width: 110px;
 }
@@ -121,13 +131,12 @@ input{
         font-size: 16px;
     }
     .header a{
-        font-size: 18px;
-        background-color: #BCFD4C;
+        font-size: 24px;
+       
         text-decoration: none;
         color: beige;
         border: 1px solid black;
         padding: 5px;
-        background-color: rgb(52, 76, 121);
     }
     .IMG h2{
         font-size: 18px;
